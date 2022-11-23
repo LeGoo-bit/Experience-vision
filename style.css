@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#second-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.row #project-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnum {
+  text-align: center;
+}
+#choose {
+  height: 85vh;
+  background-image: url(/Images/Rectangle10.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#services .row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+a:hover{
+    color: #ea630e !important;
+}
+.floating-messaging .float{
+    position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgb(237, 126, 44);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  box-shadow: rgb(153, 153, 153) 2px 2px 3px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.floating-messaging a{
+    text-decoration: none;
+}
+@media screen and (max-width:720px){
+    #Top-notch{
+        height: auto !important;
+    }
+    #Top-notch h2{
+        font-size: 25px !important;
+    }
+    #Top-notch p{
+        font-size: 15px !important;
+        padding-top: 0px !important;
+    }
+    #Top-notch a button{
+        padding: 5px 15px !important;
+    }
+    #project h2{
+        font-size: 18px !important;
+        width: 100% !important;
+    }
+    #project h3{
+        font-size: 12px !important;
+    }
+    #Welcome{
+        height: auto !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    #Welcome h2{
+        font-size: 18px !important;
+        padding: 0px !important;
+    }
+    #Welcome p{
+        font-size: 15px !important;
+        padding: 0px !important;
+    }
+    #Welcome a button{
+        padding: 5px 15px !important;
+    }
+    #choose{
+        height: auto !important;
+        padding-bottom: 30px !important;
+    }
+    #choose .icon-box{
+        display: block !important;
+        padding-left: 23px !important;
+    }
+    #choose .cont{  
+        padding-left: 20px !important;
+    }
+    #services{
+        height: auto !important;
+    }
+    #services .row{
+        padding: 0 !important;
+    }
+    #services h4{
+        font-size: 20px !important;
+    }
+    #services p{
+        font-size: 15px !important;
+    }
+    #gallery{
+        height: auto !important;
+    }
+    #testimonials{
+        height: auto !important;
+        padding: 30px 0px!important;
+    }
+    #testimonials .row{
+        padding-left: 23px !important;
+    }
+    #testimonials p{
+        font-size: 13px !important;
+    }
+    #testimonials .card{
+        width: 300px !important;
+    }
+    .trends{
+        height: auto !important;
+    }
+    .trends p{
+        font-size: 12px !important;
+        padding: 5px !important;
+    }
+    .trends h2{
+        font-size: 18px !important;
+        padding: 5px !important;
+    }
+    .trends a{
+        padding: 5px !important;
+    }
+    .trends a .btn{
+        padding: 5px 15px !important;
+    }
+    
+    #foot{
+        height: auto !important;
+    }
+    .last-div{
+        padding-bottom: 20px !important;
+    }
+}
